@@ -1,0 +1,120 @@
+.headerContainer{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    z-index: 9;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #f1f1f1;
+    box-shadow: 0px 2px 2px #dadada ;
+    
+}
+.headerContainer .leftContainerLogo {
+    width: 44px;
+    color: #f1f1f1;
+    overflow: hidden;
+    /* height: 44px; */
+}
+.leftContainer{
+    width: 20%;
+}
+.centerContainer{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.headerInput {
+    flex: 1;
+    border: none;
+    padding: .5em 2em ;
+
+}
+.centerContainer .headerCenterIcon{
+    /* border-left: 2px solid grey;
+    background-color: #002f34;
+    color: white;
+    flex: 1; */
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    background-color: #002f34;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    /* padding: .5em 2em; */
+}
+.rightContainer{
+    display: flex;
+    align-items: center;
+    
+}
+.headerRightText{
+    margin-right: 0.8em ;
+}
+.headerBtn{
+    border-radius: 999px;
+    padding: .3em 1em;
+    border: 2px solid rgb(229, 238, 102);
+    background-color: white;
+}
+.headerBtn:hover{
+    transition: ease-in-out .4s;
+    background-color: black;
+    color: white;
+
+}
+.locations{
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 0em;
+    border-radius: 5px;
+    background-color: white;
+
+    
+    
+}
+.label{
+    border: none;
+    padding: .5em 2em ;
+}
+.locations .labelSearch {
+    width: 40px;
+    height: 40px;
+    color: #002f34
+}
+
+.itemsList{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 10px;
+}
+ul li {
+    padding: 10px;
+}
+.hnav {
+    display: flex;
+    text-align: center;
+}
+.hnavBtn{
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}

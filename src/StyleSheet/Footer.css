@@ -1,0 +1,90 @@
+.footercontent{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 47, 52, 0.03);
+}
+.footercontent1{
+    border-left: 1px solid gray;
+    /* margin: 20px; */
+    height: 120px;
+}
+.footerend{
+    display: flex;
+    margin-left: 0px;
+    padding-left: 90px;
+    padding-top: 10px;
+    height:135px;
+justify-content: space-between;
+background-color: #ebeeef;
+}
+.footerend div{
+    
+    width: 150px;
+
+}
+.footerend span{
+    font-size: 12px;
+    font-weight: 1000;
+}
+
+.footerend li{
+    list-style-type: none;
+    font-size: 12px;
+    
+}
+#facebook{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    color: gray;
+    width: 20px;
+    padding-left: 5px ;
+}
+.h4{
+    padding-left: 100px;
+}
+#twitter{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    color: gray;
+    width: 20px;
+    padding-left: 5px ;
+}
+#play{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    color: gray;
+    width: 20px;
+    padding-left: 5px ;
+}
+#instagram{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    color: gray;
+    width: 20px;
+    padding-left: 5px ;
+}
+.card2 .p1{
+    padding-left: 150px;
+}
+.div2903{
+    display: inline-flex;
+}
+#div2908{
+    display: inline-flex;
+    align-items: center;
+}
+.footerend2{
+    padding-left: 120px;
+    display: flex;
+    font-size: 15px;
+    background-color: #002f34;
+    color: white;
+}
+
+
+#spanend{
+    padding-left: 240px;
+}
+.fontAwsomeIcons i{
+    margin: 5px;
+}
